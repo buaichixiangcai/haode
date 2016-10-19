@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ticket3</title>
+	<link rel="stylesheet" href="css/hearder.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/ticket3.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<div class = "hearder">
+	<div class = "hearder_content">
+		<div class = "logo">
+			<img src="img/logo.png" height="91" width="132" alt="">
+		</div>
+		<div class = "login">
+			<span id = "phone">
+			<a href="javascript:;">400-8008820</a></span>
+			<span id = "log"><a href="javascript:;">登录</a></span>
+			<span id = "reg"><a href="javascript:;">注册</a></span>
+			<span id = "luggage"><a href="javascript:;">
+			行李箱</a></span>
+			<input type="text">
+		</div>
+		<!-- 导航开始 -->
+		<div class = "nav">
+			<span><a href="javascript:;">第一次</a></span>
+			<span><a href="../mudidtb.html">目的地</a></span>
+			<span><a href="../行程列表/行程列表.html">自定行程</a></span>
+			<span><a href="../游记攻略/游记攻略.html">游记</a></span>
+			<span><a href="../Techan.html">特产</a></span>
+			<span><a href="javascript:;">优惠</a></span>
+			<span><a href="javascript:;">环岛巴士</a></span>
+		</div>
+		<!-- 导航结束 -->
+	</div>
+</div>
+<!-- 头部结束 -->
+
+<!-- 彩条开始 -->
+<div class = "color_stripe">
+	<div class = "color_center">
+		<div class = "gra_lef_l"></div>
+		<div class = "ora">
+			<div class = "ora_lef">
+				<div class = "ora_rig"><span>1</span>确认</div>
+			</div>
+		</div>
+		<div class = "gra">
+			<div class = "gra_lef">
+				<div class = "gra_rig"><span>2</span>生成</div>
+			</div>
+		</div>
+		<div class = "gra">
+			<div class = "gra_lef">
+				<div class = "gra_rig"><span>3</span>支付</div>
+			</div>
+		</div>
+		<div class = "gra">
+			<div class = "gra_lef">
+				<div class = "gra_rig"><span>4</span>完成</div>
+			</div>
+		</div>
+		<div class = "gra_r">
+			<div class = "gra_r_lef"></div>
+		</div>
+	</div>
+</div>
+<!-- 彩条结束 -->
+
+<!-- 内容开始 -->
+<div class = "content">
+	<div class = "content_left">
+		<div class = "content_left_one">
+			<p class = "passenger_info">
+				<span class = "info">
+					乘机人信息
+				</span>
+				<span class = "tips">
+					（请准确填写乘机人信息，以免在办理登记时发生问题，* 为必填项）
+				</span>
+			</p>
+			<div class = "form">
+				<p class = "form_a">
+					<span class = "span_r">姓名</span><span style = "color:red;">*</span><input type="text">
+				</p>
+
+				<p class = "form_a">
+					<span class = "span_r">类型</span><span style = "color:red;">*</span><select name="" id="">
+						<option value="">
+							成人>12岁
+						</option>
+					</select>
+				</p>
+
+				<p class = "form_a">
+					<span class = "span_r">性别</span><span style = "color:red;">*</span><select name="" id="">
+						<option value="">
+							女
+						</option>
+					</select>
+				</p>
+
+				<p class = "form_a">
+					<span class = "span_r">国籍</span><span style = "color:red;">*</span><input type="text">
+				</p>
+
+				<p class = "form_bir">
+					<span>出生日期</span><span style = "color:red;">*</span><input type="text" value = "">
+				</p>
+
+				<p class = "form_a">
+					<span>证件信息</span><span style = "color:red;">*</span><select name="" id="">
+						<option value="">
+							台湾通行证
+						</option>
+					</select><input type="text" id = "tytxz">
+				</p>
+				<p class = "warn">
+					<span>
+						为了您能顺利出行，请确保旅行结束日期至少比证件有效期早1个月。
+					</span>
+				</p>
+			</div>
+			<div class = "rig_btn">
+				<a href="javascript:;">
+					新增一位登机人
+				</a>
+				<a href="javascript:;">
+					确认并保存身份信息
+				</a>
+			</div>
+		</div>
+		<div class = "content_left_two">
+			 <div class = "people_message">
+			 	<span class = "message">
+			 		联系人信息
+			 	</span>
+			 	<span class = "message_tips">请准确填写联系人信息，以便我们与您联系</span>
+			 </div>
+			 <div class = "people_form">
+			 	<p>
+			 		<span>联系人</span><span style = "color:red;">*</span><input type="text">
+			 	</p>
+
+			 	<p class = "addr">
+			 		<span class = "addr_fs">联系人方式</span><span style = "color:red;">*</span><input type="text" id = "addr_fm">
+			 	</p>
+			 </div>
+			 <p class = "baoxiao">报销信息</p>
+		</div>
+		<div class = "content_three">
+			<div class = "baoxiao_form">
+				<p class = "ckbx">
+					<input type="checkbox"><label for="">行程单(仅作为报销凭证，起飞后超过7天不可打印行程单)</label>
+				</p>
+				<p class = "express">
+					<span class = "express_kd">快递</span><span class = "money">￥10</span><span class = "plane_tickets">机票使用后5天内送达，快捷可靠。</span>
+				</p>
+				<p class = "get_people">
+					<span>收件人</span><input type="text">
+				</p>
+
+				<p class = "people_num">
+					<span>手机号码</span><input type="text">
+				</p>
+				<p class = "distr_addr">
+					<span>配送地址</span>
+					<select name="" id="addr_one">
+						<option value=""></option>
+					</select>
+					<select name="" id="addr_two">
+						<option value=""></option>
+					</select>
+					<select name="" id="addr_thr">
+						<option value=""></option>
+					</select>
+				</p>
+				<p class = "postal_codes">
+					<span class = "codes">邮政编码</span><input type="text"><span class = "codes_num">邮编查询</span>
+				</p>
+			</div>
+		</div>
+		<div class = "content_four">
+			<div class = "insurance">
+				<input type="checkbox"><label for="">保险发票(仅作为通过购买保险的报销凭证)</label>
+
+				<p class = "choose_style">
+					<span>发票类型</span>
+					<select name="" id="styl">
+						<option value=""></option>
+					</select>
+					<span class= "wh">?</span>
+				</p>
+				<p class = "title">
+					<span>发票抬头</span><input type="text">
+				</p>
+			</div>
+			<div class = "agree">
+				<input type="checkbox"><label for="">我已阅读并同意</label>
+				<a href="javascript:;">《网络电子客票协议》</a>
+				<a href="javascript:;">《航意险说明1》</a>
+				<a href="javascript:;">《航意险说明2》</a>
+				<a href="javascript:;">《保险经纪委托协议》</a>
+				<a href="javascript:;">《延误险说明》</a>
+			</div>
+			<div class = "subm_btn">
+				<a href="javascript:;">取消订单</a>
+				<a href="javascript:;" id = "sub">提交订单</a>
+			</div>
+		</div>
+	</div>
+	<div class = "content_right">
+		<div class = "right_top">
+			<p>
+				航班的起飞和到达时间为当地时间
+			</p>
+			<div class = "plane_message">
+				<p>
+					<span>去程11月10日</span>
+					<span class = "mleft">北京→台北</span>
+				</p>
+				<p id = "plane_style">
+					<span>南方航空</span>
+					<span>CS3009 45</span>
+					<span>经济舱</span>
+				</p>
+				<div id = "begain_date">
+					<p>2014年11月10日</p>
+					<p>12:45</p>
+					<p>首都机场T3</p>
+				</div>
+				<div id = "im_g">
+					<img src="img/jt_bigbbb.png" height="35" width="58" alt="">
+				</div>
+				<div id = "over_date">
+					<p>2014年11月10日</p>
+					<p>12:45</p>
+					<p>首都机场T3</p>
+				</div>
+			</div>
+		</div>
+		<div class = "right_bottom">
+			<p class = "fare">
+				票价：1680元（不含税费）
+			</p>
+			<div class = "pl_btn">
+				<p class = "amend">
+					<a href="javascript:;">
+						【修改航班】
+					</a>
+				</p>
+				
+				<p class = "fl_rig">
+					<a href="javascript:;" class = "expliain">
+						购票说明
+					</a>
+					<a href="javascript:;" class = "return">
+						退改签
+					</a>
+				</p>
+			</div>
+			<div class = "pay">
+				<div class = "my">
+					<span>
+						应付金额
+					</span>
+				</div>
+				<div class = "jq">
+					<p class = "jq_q">￥1680</p>
+					<p class = "mx_ck">明细（1名乘客）</p>
+				</div>
+			</div>
+			<div class = "fy">
+				<p>成人…………………………………………………………￥1340×1人</p>
+				<p>机票税…………………………………………………………￥300×1人</p>
+				<p>燃油费………………………………………………………￥40×1人</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 内容结束 -->
+
+<!-- 底部开始 -->
+<div class = "footer">
+	<div class = "footer_top">
+		<ul>
+			<li id = "fot_one">关于遛湾</li>
+			<li>公司简介</li>
+			<li>联系我们</li>
+			<li>诚聘英才</li>
+			<li>网站地图</li>
+		</ul>
+
+		<ul>
+			<li id = "fot_one">帮助中心</li>
+			<li>赴台手续</li>
+			<li>遛湾玩法</li>
+			<li>常见问题</li>
+		</ul>
+
+		<ul>
+			<li id = "fot_one">网站条款</li>
+			<li>服务条款</li>
+			<li>免责声明</li>
+		</ul>
+
+		<ul>
+			<li id = "fot_one">关注我们</li>
+			<li>
+				<img src="img/weichat_weibo.png" height="34" width="76" alt="">
+			</li>
+		</ul>
+
+		<div class = "tel">
+			<p class = "tel_num">400 820 8820</p>
+			<p class = "tel_day">周一至周日</p>
+			<p class = "tel_time">9:00～20:00</p>
+			<p class = "tel_online">在线服务咨询 >> </p>
+		</div>
+	</div>
+	<div class = "footer_bottom">
+		<p>
+			Copyright © 2013-2014 www.6waner.cn All Right Reserved. 京ICP备11015236号
+		</p>
+	</div>
+</div>
+<!-- 底部结束 -->
+</body>
+</html>

@@ -1,0 +1,307 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+.title{
+	width: 100%;
+	min-width: 1000px;
+	border-bottom: 3px solid #176FBB;
+	margin-top: 15px;
+}
+.title .tita{
+	width: 1000px;
+	margin: 0 auto;
+}
+.Liu{
+	float: left;
+}
+.tita{
+	overflow: hidden;
+}
+.word{
+	width: 786px;
+	height: 90px;
+	position: relative;
+	float: right;
+}
+.up{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.up img{
+	vertical-align: top;
+}
+.down{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.down a{
+	font-size: 18px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+	color: #3C3C3C;
+}
+.down img{
+	margin-right: 15px;
+}
+.down .you{
+	color: #176FBB;
+}
+.numb{
+	color: #FFA000;
+}
+.numb,.zia,.zib,.zic{
+	font-size: 14px;
+}
+.zia,.zic{
+	font-weight:bolder;
+}
+.zia{
+	border-left: 2px solid #000;
+	border-right:2px solid #000;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.zib{
+	border-right: 1px solid #000;
+	padding-right: 15px;
+}
+.up input{
+	background-image: url(../picture/sou.png);
+	width:181px;
+	height: 28px;
+	border: 0px;
+}
+.tupian{
+	width: 100%;
+	height: 350px;
+	background: url(../picture/dt.png) center center no-repeat;
+	background-size:cover;
+}
+.shouye{
+	font-size: 14px;
+	line-height: 55px;
+	margin-left: 200px;
+	word-spacing: 2px;
+}
+.shouye a{
+	text-decoration: none;
+	color: #000;
+}
+.cont{
+	width: 1000px;
+	margin: 30px 200px;
+}
+.Liwu{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 22px;
+}
+.Liwu a{
+	text-decoration: none;
+	color: #CC0000;
+}
+.Liwu img{
+	vertical-align: middle;
+}
+.nei{
+	overflow: hidden;
+}
+.pic1{
+	position: relative;
+	float: left;
+	margin-right: 29px;
+}
+.neia{
+	width: 313px;
+	height: 221px;
+	position: absolute;
+	color: #fff;
+	background-color: #170601;
+	opacity: 0.7;
+	bottom:5px;
+}
+.shu{
+	margin-top: 20px;
+}
+.shu .spaa{
+	font-size: 12px;
+}
+.shu,.word1,.word2{
+	text-align: center;
+}
+.word1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.word2{
+	font-size: 14px;
+}
+.tu7{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.neia a{
+	width: 313px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+.pic2,.pic4,.pic5{
+	float: left;
+}
+.pic3{
+	float: right;
+	position: relative;
+}
+.pic2{
+	position: relative;
+	margin-right: 29px;
+}
+.xiaoguo{
+	display: none;
+	cursor: pointer;
+}
+.pic2:hover .xiaoguo{display: block;}
+.pic3:hover .xiaoguo{display: block;}
+.pic4:hover .xiaoguo{display: block;}
+.pic5:hover .xiaoguo{display: block;}
+.pic6:hover .xiaoguo{display: block;}
+.pic2b,.pic3b,.pic4b,.pic5b,.pic6b{
+	width: 313px;
+	height: 28px;
+	background-color: #070400;
+	position: absolute;
+	bottom: 5px;
+	opacity: 0.5;
+}
+.pic2 .fl2{
+	font-size: 18px;
+	position: absolute;
+	bottom: 5px;
+	right: 130px;
+	color: #fff;
+}
+.pic3 .fl3,.pic5 .fl5{
+	font-size: 18px;
+	position: absolute;
+	bottom: 5px;
+	left: 60px;
+	color: #fff;
+}
+.pic5 .fl5{
+	text-decoration: none;
+}
+.pic4,.pic5{
+	position: relative;
+	margin-top: 29px;
+	margin-right: 29px;
+}
+.pic4 .fl4{
+	font-size: 18px;
+	position: absolute;
+	bottom: 5px;
+	left: 140px;
+	color: #fff;
+}
+.pic6{
+	margin-top: 29px;
+	position: relative;
+	float: right;
+}
+.pic6 .fl6{
+	font-size: 18px;
+	position: absolute;
+	bottom: 5px;
+	left: 130px;
+	color: #fff;
+}
+.xiama{
+	text-align: center;
+	margin:30px auto;
+}
+.xiama span{
+	font-size: 12px;
+	color: #6E6E6E;
+	margin-right: 10px;
+}
+.xiama .sp{
+	font-size: 12px;
+	color: #fff;
+	background-color: #6E6E6E;
+	display: inline;
+	padding: 5px 7px;
+}
+.bottom{
+	width: 100%;
+	background-color: #023C4D;
+}
+.bottom1{
+	border-bottom: 1px solid #fff;
+}
+.bottom2{
+	font-family: "宋体";
+	width: 800px;
+	margin: 0px auto 24px auto;
+	overflow: hidden;
+}
+.bottom2 li{
+	font-size: 14px;
+	margin-top: 10px;
+	list-style: none;
+}
+.bo1,.bo2,.bo3,.bo4{
+	color: #fff;
+	float: left;
+	margin-right: 77px;
+	margin-top: 20px;
+}
+.bo5{
+	float: right;
+	margin-top: 15px;
+	color: #fff;
+}
+.bo5 span{
+	font-size: 28px;
+}
+.bott{
+	font-size: 18px;
+}
+.lang{
+	margin-top: 22px;
+}
+.zhou{
+	font-size: 18px;
+	letter-spacing: 5px;
+	margin-top: 18px;
+	margin-bottom: 14px;
+}
+.riqi{
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+}
+.zixun{
+	color: #023C4D;
+}
+.bottom3{
+	font-size: 14px;
+	color: #fff;
+	line-height: 57px;
+	text-align: center;
+}
+
+
+
+
+

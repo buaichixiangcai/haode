@@ -1,0 +1,273 @@
+.content{
+
+	width: 1001px;
+	/* background: #80c269; */
+	margin: 0 auto;
+}
+
+.con_top{
+
+	width: 1001px;
+	/* height: 149px; */
+	/* background: red; */
+}
+
+.con_bottom{
+
+	width: 1001px;
+	height: 422px;
+	/* background: #f19ec2; */
+	margin-top: 20px;
+}
+
+.con_top_title{
+
+	width: 120px;
+	/* background: #2F791C; */
+	font-size: 14px;
+	padding: 20px 0px;
+}
+
+.con_top_title p a{
+
+	color: #3c3c3c;
+}
+
+.con_top_ticket{
+
+	width: 999px;
+	height: 94px;
+	border: 1px solid #3c3c3c;
+	/* background: #fffbdc; */
+	overflow: hidden;
+}
+
+.tic_tab{
+
+	width: 736px;
+	height: 94px;
+	/* background: #948fc5; */
+	padding-left: 19px;
+	float: left;
+}
+
+.tic_tab_top{
+
+	width: 736px;
+	height: 30px;
+	/* background: #8fc31f; */
+	padding: 8px 0px;
+}
+.input1{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+#city{
+	
+	width: 139px;
+	height: 30px;
+	background: url(../img/select_bg.png) no-repeat center;
+	border: 0px;
+}
+
+#date{
+
+	width: 213px;
+	height: 30px;
+	background: url(../img/date_bg.png) no-repeat center;
+	border: 0px;
+	margin-right: 20px; 
+}
+/* #date option{
+	margin-left: 20px;
+} */
+#time{
+
+	width: 105px;
+	height: 30px;
+	background: url(../img/time_bg.png) no-repeat center;
+	border: 0px;
+}
+
+.tic_tab_top span{
+	
+	display: inline-block;
+	margin: 0px 20px;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+
+#onl{
+
+	margin-left: 4px;
+	margin-right: 0px;
+}
+
+.tic_btn{
+
+	width: 205px;
+	height: 36px;
+	background: #ffa000;
+	float: right;
+	text-align: center;
+	line-height: 36px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 10px;
+	margin: 29px 20px 0 0;
+}
+/* .con_bottom{
+	margin-top: 20px;
+	background: #ffa000;
+	height: 40px;
+	width: 1001px;
+	line-height: 40px;
+} */
+
+.sales{
+
+	font-size: 16px;
+	color: #fff;
+	width: 1001px;
+	padding: 12px 0px;
+	background: #ffa000;
+}
+
+.sales p{
+
+	margin-left: 21px;
+}
+
+.city_change{
+
+	width: 1001px;
+	height: 335px;
+	/* border: 1px solid #3c3c3c; */
+	margin-top: 20px;
+	/* background: #cccc33; */
+	overflow: hidden;
+}
+
+.city_change_tab{
+
+	width: 700px;
+	height: 333px;
+	border: 1px solid #3c3c3c;
+	float: left;
+}
+
+.cm{
+
+	/* height: 58px; */
+	width: 700px;
+	/* background: #facd89; */
+}
+
+.cm select{
+
+	width: 99px;
+	height: 30px;
+	background: url(../img/bg_bg.png) no-repeat center;
+}
+
+#bj{
+
+	margin: 8px 12px 20px 19px;
+}
+
+#tb{
+
+	margin: 8px 0px 20px 12px;
+}
+
+.cm img{
+
+	vertical-align: middle;
+}
+
+.cm_dt{
+
+	width: 700px;
+	font-size: 16px;
+	color: #fff;
+	padding: 7px 0px;
+	background: #5ab4f5;
+	text-align: center;
+}
+
+.cm_dt span{
+
+	margin: 0px 23px;
+}
+
+.week{
+
+	width: 700px;
+	font-size: 12px;
+	color: #1f71b8;
+	padding: 7px 0px;
+	text-align: center;
+	background: #fff;
+}
+
+.week span{
+
+	margin: 0px 25px;
+}
+
+table{
+
+	margin: 0px auto;
+}
+
+table tr td{
+	
+	width: 47px;
+	height: 35px;
+	border: 1px solid #000;
+	border-collapse:collapse;
+	padding: 3px 7px 3px 42px;
+	text-align: right;
+}
+
+table tr td p{
+
+	margin-top: 4px;
+
+}
+
+.city_change_pic{
+
+	width: 269px;
+	height: 335px;
+	background: #6ccac9;
+	float: right;
+}
+
+.bottom_black{
+
+	width: 269px;
+	height: 52px;
+	background: black;
+	position: relative;
+	bottom: 55px;
+	opacity: 0.5;
+}
+
+.bottom_txt{
+	
+	width: 269px;
+	height: 52px;
+	font-size: 22px;
+	color: #fff;
+	position: relative;
+	bottom: 90px;
+	text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"微软雅黑";
+}
+.a1{
+	border-bottom:2px solid #176fbb;
+}
+.a3 img{
+	width: 100%;
+	height: 350;
+	background-size: 100% 350px;
+	background:url(e.png) 0 0 no-repeat;
+}
+.a5{
+	background-color: #023c4d;
+}
+.b1{
+	width: 1019px;
+	margin: auto;
+	overflow: hidden;
+}
+.o11{
+	vertical-align: middle;
+}
+.o1{
+	padding-right: 23px;
+	margin-top: 10px;
+	float: right;
+	position: relative;
+}
+.o16{
+	width: 60px;
+	height: 20px;
+	border: 0;
+	border-left: 2px solid #3c3c3c;
+	text-align: center;
+}
+.o17{
+	width: 60px;
+	height: 20px;
+	border: 0;
+	border-left: 2px solid #3c3c3c;
+	border-right: 2px solid #3c3c3c;
+	text-align: center;
+}
+.o12 img{
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.o14{
+	width: 152px;
+	height: 26px;
+	border:1px solid #3c3c3c;
+}
+.o15{
+	position: absolute;
+	top: 0px;
+	right: 1px;
+}
+.o13{
+	width: 60px;
+	height: 20px;
+	border: 0;
+	text-align: center;
+}
+.r2{
+	font-size: 18px;
+	word-spacing: 20px;
+	float: left;
+	margin-top: 45px;
+	margin-bottom: 5px;
+}
+.r2 a{
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	font-weight: bold;
+}
+.r2 span{
+	color: #176fbb;
+}
+.x1{
+	padding-left: 20px;
+}
+.b5{
+	padding-top: 17px;
+	float: left;
+}
+.b2{
+	width: 1019px;
+	margin: auto;
+}
+.b2 a{
+	font-size: 14px;
+	display: block;
+	margin: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+.b3{
+	width: 1019px;
+	margin: auto;
+	overflow: hidden;
+}
+.c1{
+	width: 1019px;
+	height: 67px;
+	border-bottom: 1px solid #51b23e;
+	overflow: hidden;
+}
+.c2{
+	float: left;
+	width: 100px;
+	height: 37px;
+	font-size: 22px;
+	color: #fff;
+	background-color: #51b23e;
+	border: 0;
+	text-align: center;
+	margin-top: 30px;
+}
+.c3{
+	float: right;
+	width: 100px;
+	height: 36px;
+	font-size: 22px;
+	color: #fff;
+	background-color: #51b23e;
+	border: 0;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 30px;
+}
+.v1{
+	height: 178px;
+	border-bottom: 2px solid #fff;
+}
+.b4{
+	width: 1019px;
+	margin: auto;
+	overflow: hidden;
+}
+.c4{
+	width: 1019px;
+	display: block;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.p4 p{
+	color: #6e6e6e;
+	font-size: 12px;
+	text-align: center;
+	word-spacing: 10px;
+	margin-bottom: 10px;
+}
+.p4 input{
+	color: #fff;
+	background-color: #6e6e6e;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	border:0px;
+}
+.w5{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+}
+.v2,.v3,.v4,.v5{
+	float: left;
+	margin-left:60px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	margin-top: 30px;
+}
+.v2 p,.v3 p,.v4 p,.v5 p{
+	font-size: 18px;
+}
+.b4 a{
+	color: #fff;
+	text-decoration:none;
+}
+.v6{
+	float: right;
+}
+.v6 p{
+	font-size: 28px;
+	margin-right: 100px;
+	color: #fff;
+	margin-top: 20px;
+}
+.v6 span{
+	color: #fff;
+	font-size: 18px;
+}
+.v6 input{
+	width: 130px;
+	height: 25px;
+	background-color: #fff;
+	border-radius:5px;
+	color: #023c4d;
+	margin-top: 20px;
+}
+.i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9,.i10,.i11,.i12{
+	position: relative;
+	float: left;
+	margin-top: 15px;
+	padding-left: 15px;
+}
+.n1{
+	width: 307px;
+	background-color: #363a3c;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 15px;
+	left: 18px;
+}
+.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11,.n12{
+	width: 313px;
+	background-color: #363a3c;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11,.t12{
+	position: absolute;
+	left: 19px;
+	bottom: 29px;
+}
+.n1 span,.n2 span,.n3 span,.n4 span,.n5 span,.n6 span,
+.n7 span,.n8 span,.n9 span,.n10 span,.n11 span,.n12 span{
+	color: #fff;
+	font-size: 12px;
+}
+.y1,.y2,.y3,.y4,.y5,.y6,.y7,.y8,.y9,.y10,.y11,.y12{
+	position: absolute;
+	bottom: 25px;
+	right: 75px;
+}
+.s12,.s11,.s10,.s9,.s8,.s7,.s6,.s5,.s4,.s3,.s2,.s1{
+	position: absolute;
+	right: 120px;
+	top: 27px;
+}
+.g12,.g11,.g10,.g9,.g8,.g7,.g6,.g5,.g4,.g3,.g2,.g1{
+	position: absolute;
+	right: 83px;
+	top: 28px;
+}
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8,.e9,.e10,.e11,.e12{
+	position: absolute;
+	right: 48px;
+	top: 27px;
+}
+.j1,.j2,.j3,.j4,.j5,.j6,.j7,.j8,.j9,.j10,.j11,.j12{
+	position: absolute;
+	right: 11px;
+	top: 28px;
+}
